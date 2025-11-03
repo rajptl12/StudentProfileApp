@@ -1,0 +1,42 @@
+
+StudentProfileApp – Reference Guide
+
+References Used:
+
+Jetpack Compose official documentation (developer.android.com/jetpack/compose)
+Android Navigation Component guide (developer.android.com/guide/navigation)
+Material 3 components reference (developer.android.com/jetpack/compose/designsystems/material3)
+Online Class lectures and materials
+
+
+1. Project Overview**
+App Name:StudentProfileApp
+Purpose:
+This project is an Android application built with Jetpack Compose. The app displays a list of students, and when a user clicks on a student, it shows that student’s detailed profile on another screen.
+
+Main Features:
+
+1.Student List Screen using LazyColumn
+2.Clickable cards with student image and name
+3.Detail Screen showing full name, major, bio, and photo
+4.Working back navigation using NavController
+5.Clean UI with Material 3 design
+
+2. Images
+All images are placed in the res/drawable/ folder.
+Default image: avatar_default.png
+
+3. Build & Run Instructions
+
+1. Open project in Android Studio
+2. Sync Gradle
+3. Click “Run App” or use command:
+./gradlew assembleDebug
+
+4. Launch on emulator or real Android device
+
+4. Bonus Features Added
+Rounded corner cards (`RoundedCornerShape(16.dp)`)
+Light gradient background on the detail screen
+Card elevation animation on click
+Smooth layout and spacing using Material 3
